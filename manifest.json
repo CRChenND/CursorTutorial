@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Sensitive Info Monitor",
+  "version": "1.0",
+  "description": "Monitors and highlights sensitive information in ChatGPT input",
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": []
+} 
